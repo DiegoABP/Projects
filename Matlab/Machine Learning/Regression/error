@@ -1,0 +1,6 @@
+%Funcion para calcular el error usando MSE
+function mse = error(rz, nz)  
+  m=rows(rz);
+  n=columns(rz);
+  mse = sum(sum((rz - nz) .^ 2)) / (m * n);
+endfunction
