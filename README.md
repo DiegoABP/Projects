@@ -20,6 +20,4 @@ Feel free to:
 
 Explore the code and see how I tackled different problems.
 Check out my CV for a more detailed overview of my skills and experience.
-Connect with me on [Linkedin]
-
-<linkedinlink>:[Linkedin](https://www.linkedin.com/in/diego-bogarin-b3232a238/)
+Connect with me on <linkedinlink>:[Linkedin](https://www.linkedin.com/in/diego-bogarin-b3232a238/)
