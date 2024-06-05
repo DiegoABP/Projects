@@ -1,14 +1,14 @@
 Diego's Programming Portfolio
 This repository showcases my programming journey through various projects I've built using different languages. Take a look to get an idea of my abilities in:
 
-•Python
+•Python \n
 •Verilog
 •Matlab
 
 
 This includes projects such as:
 
-•Current Project:
+•Current Project
 •Machine Learning
 •Neural Networks
 •Telecommunications
