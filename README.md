@@ -13,8 +13,6 @@ This repository showcases my programming journey through various projects I've b
 
 This includes projects such as:
 
-•Current Project
-
 •Machine Learning
 
 •Neural Networks
