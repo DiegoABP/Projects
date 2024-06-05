@@ -28,8 +28,6 @@ This includes projects such as:
 I'm currently working on an Android Studio project using Java. Stay tuned, I'll be adding it here once it's complete!
 
 
-Projects
-
 Feel free to:
 
 
