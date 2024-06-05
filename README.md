@@ -1,4 +1,4 @@
-#Diego's Programming Portfolio
+##Diego's Programming Portfolio
 
 
 This repository showcases my programming journey through various projects I've built using different languages. Take a look to get an idea of my abilities in:
