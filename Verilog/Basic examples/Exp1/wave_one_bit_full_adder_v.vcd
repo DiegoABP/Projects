@@ -1,0 +1,91 @@
+$date
+	Sat Mar  6 02:18:46 2021
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	10ns
+$end
+
+$scope module FATB $end
+$var reg 1 ! A $end
+$var reg 1 " B $end
+$var reg 1 # Cin $end
+$var wire 1 $ S $end
+$var wire 1 % Cout $end
+
+$scope module uut $end
+$var wire 1 & A0 $end
+$var wire 1 ' B0 $end
+$var wire 1 ( Ci $end
+$var wire 1 $ S $end
+$var wire 1 % C $end
+$var wire 1 ) hs $end
+$var wire 1 * hc $end
+$var wire 1 + tc $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+0)
+0*
+0+
+0(
+0'
+0&
+$end
+#500
+1#
+1(
+1$
+#1000
+1"
+0#
+1'
+0(
+1)
+0$
+1$
+#1500
+1#
+1(
+1+
+0$
+1%
+#2000
+1!
+0"
+0#
+1&
+0'
+0(
+0+
+1$
+0%
+#2500
+1#
+1(
+1+
+0$
+1%
+#3000
+1"
+0#
+1'
+0(
+1*
+0)
+0+
+1$
+0$
+#3500
+1#
+1(
+1$

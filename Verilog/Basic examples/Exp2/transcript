@@ -1,0 +1,34 @@
+# do RunDeco.do
+# ** Warning: (vlib-34) Library already exists at "./work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:16:24 on Mar 11,2021
+# vlog -work work ../Exp2/Deco.v 
+# -- Compiling module decoderBCD
+# 
+# Top level modules:
+# 	decoderBCD
+# End time: 12:16:24 on Mar 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:16:24 on Mar 11,2021
+# vlog -work work ../Exp2/DecoTB.v 
+# -- Compiling module DecoTB
+# 
+# Top level modules:
+# 	DecoTB
+# End time: 12:16:24 on Mar 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim DecoTB 
+# Start time: 12:16:24 on Mar 11,2021
+# Loading work.DecoTB
+# Loading work.decoderBCD
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+# End time: 12:16:24 on Mar 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 8

@@ -1,0 +1,10 @@
+module one_bit_full_adder_v(A0,B0,Ci,S,C);
+input A0,B0,Ci;
+output S,C;
+wire hs,hc,tc;
+xor X1(hs,A0,B0);
+xor X2(S,hs,Ci);
+and And1(hc,A0,B0);
+and And2(tc,hs,Ci);
+or  Or1(C,tc,hc);
+endmodule;

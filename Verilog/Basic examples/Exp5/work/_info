@@ -1,0 +1,53 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/estudiante/Desktop/laboratorio-2-grupo_01/Exp5
+vcontador
+Z1 !s110 1615931848
+!i10b 1
+!s100 bEWTmndH2Z;BKKYE<RUjS0
+IjLjNhz`2f0g_[^I9Y:e>`3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1615926270
+8../Exp5/Contador.v
+F../Exp5/Contador.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1615931848.000000
+!s107 ../Exp5/Contador.v|
+!s90 -work|work|../Exp5/Contador.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vContadorTB
+R1
+!i10b 1
+!s100 H:bz[X7f5eiPf=m<5K7_70
+Ia5Y>SzDNNCn3:CX8Ym2zl3
+R2
+R0
+w1615931839
+8../Exp5/ContadorTB.v
+F../Exp5/ContadorTB.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../Exp5/ContadorTB.v|
+!s90 -work|work|../Exp5/ContadorTB.v|
+!i113 1
+R5
+R6
+n@contador@t@b

@@ -1,0 +1,96 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/estudiante/Desktop/laboratorio-2-grupo_01/Exp2
+vdecoder_4
+!s110 1615322359
+!i10b 1
+!s100 b84e1z1W;3e1JNk;@jSGc1
+IWoioIK1c=0PU@8?NOZ_^S3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1615322342
+Z2 8../Exp2/Deco.v
+Z3 F../Exp2/Deco.v
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1615322359.000000
+Z5 !s107 ../Exp2/Deco.v|
+Z6 !s90 -work|work|../Exp2/Deco.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vdecoder_4x16
+!s110 1615091554
+!i10b 1
+!s100 T_78dB`N0VeV2jUOUgn1e1
+I<a8Jj?H0b8_]o`zm_KF@N0
+R1
+R0
+w1615091540
+R2
+R3
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1615091554.000000
+R5
+R6
+!i113 1
+R7
+R8
+vdecoderBCD
+Z9 !s110 1615486584
+!i10b 1
+!s100 3LHfJ2]NEH1S2Og2:zk6>2
+I?]fUKn`[14?FSQYgfE;nG1
+R1
+R0
+w1615486550
+R2
+R3
+L0 1
+R4
+r1
+!s85 0
+31
+Z10 !s108 1615486584.000000
+R5
+R6
+!i113 1
+R7
+R8
+ndecoder@b@c@d
+vDecoTB
+R9
+!i10b 1
+!s100 FLDLdSj;RSzV0mb]S9^CG2
+I@oaXWi6@;9`U`jDlDGl3C3
+R1
+R0
+w1615482323
+8../Exp2/DecoTB.v
+F../Exp2/DecoTB.v
+L0 3
+R4
+r1
+!s85 0
+31
+R10
+!s107 ../Exp2/DecoTB.v|
+!s90 -work|work|../Exp2/DecoTB.v|
+!i113 1
+R7
+R8
+n@deco@t@b

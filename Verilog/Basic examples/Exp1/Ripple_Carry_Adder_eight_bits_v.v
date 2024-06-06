@@ -1,0 +1,15 @@
+module Ripple_Carry_Adder_eight_bits_v(A,B,C0,S,Cout);
+input [7:0] A,B;
+input C0;
+output [7:0] S;
+output Cout;
+wire [7:1] C;
+one_bit_full_adder_v FA0 (B[0],A[0],C0,S[0],C[1]);
+one_bit_full_adder_v FA1 (B[1],A[1],C[1],S[1],C[2]);
+one_bit_full_adder_v FA2 (B[2],A[2],C[2],S[2],C[3]);
+one_bit_full_adder_v FA3 (B[3],A[3],C[3],S[3],C[4]);
+one_bit_full_adder_v FA4 (B[4],A[4],C[4],S[4],C[5]);
+one_bit_full_adder_v FA5 (B[5],A[5],C[5],S[5],C[6]);
+one_bit_full_adder_v FA6 (B[6],A[6],C[6],S[6],C[7]);
+one_bit_full_adder_v FA7 (B[7],A[7],C[7],S[7],Cout);
+endmodule;
