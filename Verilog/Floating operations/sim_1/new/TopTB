@@ -1,0 +1,53 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 02.05.2021 21:17:13
+// Design Name: 
+// Module Name: TopTB
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+module TopTB;
+reg signed [31:0] AT;
+reg signed [31:0] BT;
+reg ModoT;
+reg BotonT;
+reg clk;
+wire signed [31:0] ResultadoT;
+//---------------------------------------------------------------------------------------------------------------------------------
+Top PR(.AT(AT),.BT(BT),.ModoT(ModoT),.BotonT(BotonT),.clk(clk),.ResultadoT(ResultadoT));
+initial begin
+clk=0;
+forever
+begin
+clk=~clk;
+#10;
+end
+end
+initial begin
+//0.46   0.79
+AT=32'b00111110111010111000010100011110;BT=32'b00111110111010111000010100011110; ModoT=0; BotonT=0; #100;
+
+AT=32'b00111111010010100011110101110000;BT=32'b00111110111010111000010100011110;ModoT=1;
+BotonT=0;#40;
+ BotonT=1;#80;BotonT=0;#80;
+ BotonT=1;#80;BotonT=0;#80;
+ BotonT=1;#80;BotonT=0;#80;
+ BotonT=1;#80;BotonT=0;#80;
+ BotonT=1;#80;BotonT=0;#80;
+ BotonT=1;#80;BotonT=0;#80;
+ BotonT=1;#80;BotonT=0;#80;
+ $finish;
+end
+endmodule
