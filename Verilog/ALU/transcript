@@ -1,0 +1,116 @@
+# do runAlu.do
+# ** Warning: (vlib-34) Library already exists at "./work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:53:18 on Apr 07,2021
+# vlog -work work ../Aludefinitiva/adder.v 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 23:53:18 on Apr 07,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:53:18 on Apr 07,2021
+# vlog -work work ../Aludefinitiva/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 23:53:18 on Apr 07,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:53:18 on Apr 07,2021
+# vlog -work work ../Aludefinitiva/carry_lookahead_adderr.v 
+# -- Compiling module carry_lookahead_adderr
+# 
+# Top level modules:
+# 	carry_lookahead_adderr
+# End time: 23:53:18 on Apr 07,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:53:18 on Apr 07,2021
+# vlog -work work ../Aludefinitiva/decremento.v 
+# -- Compiling module decremento
+# 
+# Top level modules:
+# 	decremento
+# End time: 23:53:18 on Apr 07,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:53:18 on Apr 07,2021
+# vlog -work work ../Aludefinitiva/incremento.v 
+# -- Compiling module incremento
+# 
+# Top level modules:
+# 	incremento
+# End time: 23:53:18 on Apr 07,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:53:18 on Apr 07,2021
+# vlog -work work ../Aludefinitiva/ALUTB.v 
+# -- Compiling module ALUTB
+# 
+# Top level modules:
+# 	ALUTB
+# End time: 23:53:18 on Apr 07,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:53:18 on Apr 07,2021
+# vlog -work work ../Aludefinitiva/subtractor.v 
+# -- Compiling module subtractor
+# 
+# Top level modules:
+# 	subtractor
+# End time: 23:53:18 on Apr 07,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:53:18 on Apr 07,2021
+# vlog -work work ../Aludefinitiva/shift.v 
+# -- Compiling module shiftL
+# -- Compiling module shiftR
+# 
+# Top level modules:
+# 	shiftL
+# 	shiftR
+# End time: 23:53:18 on Apr 07,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:53:18 on Apr 07,2021
+# vlog -work work ../Aludefinitiva/logicacomb.v 
+# -- Compiling module compuerta_and
+# -- Compiling module compuerta_or
+# -- Compiling module compuerta_not
+# -- Compiling module compuerta_xor
+# 
+# Top level modules:
+# 	compuerta_and
+# 	compuerta_or
+# 	compuerta_not
+# 	compuerta_xor
+# End time: 23:53:18 on Apr 07,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim ALUTB 
+# Start time: 23:53:18 on Apr 07,2021
+# Loading work.ALUTB
+# Loading work.ALU
+# Loading work.adder
+# Loading work.carry_lookahead_adderr
+# Loading work.subtractor
+# Loading work.incremento
+# Loading work.decremento
+# Loading work.compuerta_and
+# Loading work.compuerta_or
+# Loading work.compuerta_not
+# Loading work.compuerta_xor
+# Loading work.shiftL
+# Loading work.shiftR
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+# End time: 23:53:18 on Apr 07,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 8

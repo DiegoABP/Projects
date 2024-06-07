@@ -1,0 +1,287 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/estudiante/Desktop/laboratorio3-grupo_01/Alu prueba
+vadder
+Z0 !s110 1617861198
+!i10b 1
+!s100 zc3RN4>[Td`bYF2CP>L4P2
+I8KF^^iBhF_aJiIBmZJmY]2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 d/home/estudiante/Desktop/laboratorio3-grupo_01/Aludefinitiva
+w1617856165
+8../Aludefinitiva/adder.v
+F../Aludefinitiva/adder.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1617861198.000000
+!s107 ../Aludefinitiva/adder.v|
+!s90 -work|work|../Aludefinitiva/adder.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vALU
+R0
+!i10b 1
+!s100 CPP11L:YWflY4fX;EFQC_1
+IAj03WY0THj>C[jPYacN9O2
+R1
+R2
+w1617852494
+8../Aludefinitiva/ALU.v
+F../Aludefinitiva/ALU.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../Aludefinitiva/ALU.v|
+!s90 -work|work|../Aludefinitiva/ALU.v|
+!i113 1
+R5
+R6
+n@a@l@u
+vALUTB
+R0
+!i10b 1
+!s100 XQB`jeFI`Lo6Ygo2<HY`K2
+Io0i>[KW46g2G@bcgSB7=A2
+R1
+R2
+w1617853369
+8../Aludefinitiva/ALUTB.v
+F../Aludefinitiva/ALUTB.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../Aludefinitiva/ALUTB.v|
+!s90 -work|work|../Aludefinitiva/ALUTB.v|
+!i113 1
+R5
+R6
+n@a@l@u@t@b
+vcarry_lookahead_adderr
+R0
+!i10b 1
+!s100 XOngcA@GMM9RVZTAi7;o90
+I^=zL6_iVk?E2Z6^FP4gVN2
+R1
+R2
+w1617479700
+8../Aludefinitiva/carry_lookahead_adderr.v
+F../Aludefinitiva/carry_lookahead_adderr.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../Aludefinitiva/carry_lookahead_adderr.v|
+!s90 -work|work|../Aludefinitiva/carry_lookahead_adderr.v|
+!i113 1
+R5
+R6
+vcompuerta_and
+R0
+!i10b 1
+!s100 oQJcmI:H3neEem83c1MAU1
+IkcX^E5ZXN1dYB8OdWg<YX0
+R1
+R2
+Z7 w1617861194
+Z8 8../Aludefinitiva/logicacomb.v
+Z9 F../Aludefinitiva/logicacomb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+Z10 !s107 ../Aludefinitiva/logicacomb.v|
+Z11 !s90 -work|work|../Aludefinitiva/logicacomb.v|
+!i113 1
+R5
+R6
+vcompuerta_not
+R0
+!i10b 1
+!s100 ]LKITmU`1alJ?Oe?9P<h?2
+Ic_^ka6Wek6^P8:1KRcVMO2
+R1
+R2
+R7
+R8
+R9
+L0 45
+R3
+r1
+!s85 0
+31
+R4
+R10
+R11
+!i113 1
+R5
+R6
+vcompuerta_or
+R0
+!i10b 1
+!s100 ZIbLc5U7k]0n2E48]A8f81
+I2mJc8@7;[c=P@1UTj]LUF0
+R1
+R2
+R7
+R8
+R9
+L0 23
+R3
+r1
+!s85 0
+31
+R4
+R10
+R11
+!i113 1
+R5
+R6
+vcompuerta_xor
+R0
+!i10b 1
+!s100 9N?f:8l>9;fGogLJOMSo=3
+I_0?cVRfhnEajGTG>LJiIU1
+R1
+R2
+R7
+R8
+R9
+L0 76
+R3
+r1
+!s85 0
+31
+R4
+R10
+R11
+!i113 1
+R5
+R6
+vdecremento
+R0
+!i10b 1
+!s100 G5lFMN1zaZbN=h0VJCTJD2
+I>c]k`7[M:]ozgAzS6ebPm1
+R1
+R2
+w1617860564
+8../Aludefinitiva/decremento.v
+F../Aludefinitiva/decremento.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../Aludefinitiva/decremento.v|
+!s90 -work|work|../Aludefinitiva/decremento.v|
+!i113 1
+R5
+R6
+vincremento
+R0
+!i10b 1
+!s100 0CeGFVA<h2QPoJ3D:CYbT3
+I<nhL5]]::z<2Uh4TdMTUN3
+R1
+R2
+w1617860552
+8../Aludefinitiva/incremento.v
+F../Aludefinitiva/incremento.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../Aludefinitiva/incremento.v|
+!s90 -work|work|../Aludefinitiva/incremento.v|
+!i113 1
+R5
+R6
+vshiftL
+R0
+!i10b 1
+!s100 aaPNXYK<RZ;GGRQYZT5^11
+Ik]c7b01R4L2cBg9QGDO4[2
+R1
+R2
+Z12 w1617859022
+Z13 8../Aludefinitiva/shift.v
+Z14 F../Aludefinitiva/shift.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+Z15 !s107 ../Aludefinitiva/shift.v|
+Z16 !s90 -work|work|../Aludefinitiva/shift.v|
+!i113 1
+R5
+R6
+nshift@l
+vshiftR
+R0
+!i10b 1
+!s100 LjX[I7E9?=bWo_:A0o6Kf3
+Iddi_P8caj=V6b<a?01lom3
+R1
+R2
+R12
+R13
+R14
+L0 44
+R3
+r1
+!s85 0
+31
+R4
+R15
+R16
+!i113 1
+R5
+R6
+nshift@r
+vsubtractor
+R0
+!i10b 1
+!s100 Cn=bJ:7?j6U9=0=?[J73N1
+Ii2iRb7Pk2ngQRKNT0;A103
+R1
+R2
+w1617856118
+8../Aludefinitiva/subtractor.v
+F../Aludefinitiva/subtractor.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 ../Aludefinitiva/subtractor.v|
+!s90 -work|work|../Aludefinitiva/subtractor.v|
+!i113 1
+R5
+R6
