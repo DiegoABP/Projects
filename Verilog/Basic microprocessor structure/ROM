@@ -1,0 +1,16 @@
+lui r1, #0
+lui r2, #0
+FILTRO 
+		sw r1, #40; Manda la direccion
+		lw r6, #40 carga el valor antes del bit de finalizacion
+		LOOP; loop para la verificacion de finalizacion
+		lw r7,#40 ; carga la direccion
+		beq r6,r7,loop ; se sale del ciclo hasta que sean diferentes
+		lw r3,#41; Carga a r2 el valor del dato
+		add r4,r3,r5; Suma del filtro
+		add r5 r2,#0; Guarda el valor anterior en r
+		lw r4,[r1] ;guarda el valor en la memoria ram
+		add r1,r1,#1 ;Aumenta los contadores
+		add r2,r2,#1; Aumenta el contador
+		j FILTRO
+		END

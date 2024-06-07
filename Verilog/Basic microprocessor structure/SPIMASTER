@@ -1,0 +1,61 @@
+`timescale 1ns/1ps
+module SPIMASTER(
+	input clk, rst, //reloj de 2Mhz, reset (activo en bajo)
+	input regSel, //Selección de registro (0: registro de configuración, 1: registro de datos)
+	input En,
+	input wr, //bit de escritura (Activo en ALTO)
+	input [31:0] dataIn, //entrada
+	output reg [31:0] dataOut, //salida
+	
+	//BUS SPI de 4 cables
+	output wire sCLK, //reloj SPI (125kHz)
+	output reg sCS=1, //Chip-select (activo en bajo)
+	output reg MOSI=0, //Salida Master-Output - Slave-Input
+	input MISO //Entrada Master-input - Slave-output
+	
+);
+
+	reg [5:0]contador=39;
+	reg [31:0]Registro40 =0;
+	reg [31:0]Registro41 =0;
+	reg [5:0]contador2=8;
+	//assign sCS=1;
+	Clock_divider DF(.clkin(clk),.clkout(sCLK));
+	
+	always @(negedge sCLK)begin
+	
+	if (contador ==0)
+	begin
+		contador=38;
+		 sCS =1;
+		Registro41[0]=MISO;
+		Registro40[16]=1;
+	end
+		
+	if (sCS==0) begin
+	  	 if  (wr==1) begin
+		  	Registro40=dataIn;
+		 	 if (contador>30) begin
+			 contador2=contador-33;
+		  	 MOSI=Registro40[contador2];
+			 end			
+			if (contador<=31  ) begin
+				Registro41[contador]= MISO;
+				
+			end
+			contador=contador-1;		
+			end
+		 if (wr==0)begin
+			if (regSel==0)
+			dataOut=Registro40;
+			if (regSel==1)	
+			dataOut=Registro41;
+		 end	
+
+
+	end
+
+	if (En==1)
+	sCS=0;
+	end
+endmodule

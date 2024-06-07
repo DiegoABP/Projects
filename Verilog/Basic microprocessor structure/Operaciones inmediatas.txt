@@ -1,0 +1,21 @@
+OpInmediatas(input OpI [6:0],
+input inmediato [20:0],
+input Offset[11:0],
+input BCode[2:0]
+output ResI[20:0]
+output PCOffset)
+always @(OpI)
+begin
+ResI[11:0]=Offset;
+case (OpI)
+	7'b0110111:begin
+		ResI=inmediato;
+		end
+	7'b1100011: begin
+		PCOffset=Offset;
+end
+
+	
+
+
+
