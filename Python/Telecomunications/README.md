@@ -1,14 +1,3 @@
-# Proyecto Final Grupo 2
-Bogarin Picado Diego Alberto
-
-Marin Delgado Oscar Andres
-
-Martinez Jimenez Luis Diego
-
-Vives Orozco Melissa Amelia
-
-
-
 Se presenta el código utilizado para el proyecto final.
 El código consta de las siguientes etapas:
 
